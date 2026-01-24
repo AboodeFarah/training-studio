@@ -254,6 +254,7 @@ header{
     letter-spacing: 0.5px;
     font-weight: 600;
     transition: all 0.3s;
+    padding: 25px;
 }
 .left-side a:hover{
     color: #ed563b;
@@ -280,6 +281,63 @@ header{
     margin-bottom: 28px;
 }
 
+.section-five{
+    background-image: url("https://templatemo.com/templates/templatemo_548_training_studio/assets/images/schedule-bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 0px 0px 140px 0px;
+}
+
+.title-four{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px;
+    margin-bottom: 20px;
+    gap: 1.5rem;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.title-four h2{
+    font-size: 1.75rem;
+    color: white;
+}
+.title-four h2 span{
+    color: #ed563b;
+}
+.title-four p{
+    max-width: 639px;
+    text-align: center;
+    color: #fff;
+}
+.days{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-bottom: 40px;
+}
+.days li{
+    list-style: none;
+    color: #fff;
+}
+.table{
+    margin-bottom: 100px;
+}
+.my-table{
+    width: 100%;
+    border-collapse: collapse;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.my-table td{
+    border: 1px solid #fff;
+    padding: 30px;
+    text-align: center;
+}
 
 /* mobile version */
 @media (max-width : 990px){
@@ -330,11 +388,43 @@ header{
         margin-bottom: 20px;
     }
     .section-two{
-    height: 160vh;
+    height: 200vh;
     
+    }
+    .section-three{
+    padding: 70px 0px;
     }
     .content-three{
         padding: 0 10px;
     }
+    .section-four{
+        height: 160vh;
+    }
+        .main-dev {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 3rem;
+            /* margin-bottom: 140px; */
+            padding-bottom: 140px;
+        }
+        .right-side img{
+            width: 100%;
+        }
+        /* .right-side {
+            margin-bottom: 50px;
+        } */
+    .section-five{
+        height: 190vh;
+        width: 100%;
+    }
+    .days{
+        width: 20%;
+    }
+    .my-table{
+   
+    
+}
+
+        
    
 }
