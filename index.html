@@ -16,12 +16,12 @@
                 <a href="#" class="logo">Training <span>Studio</span></a>
 
                 <div class="burger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
                 </div>
 
-                <div class="navigation-bar active">
+                <div class="navigation-bar ">
                     <ul class="links">
                         <li><a href="#">HOME</a></li>
                         <li><a href="#features">ABOUT</a></li>
@@ -409,12 +409,12 @@
 
     <script>
 
-        let burger = document.querySelector(".burger");
-        let navigationbar = document.querySelector(".navigation-bar");
+        const Burger = document.querySelector(".burger");
+        const Navbar = document.querySelector(".navbar");
 
-        burger.addEventListener("click", () => {
-            navigationbar.classList.toggle('active');
-        });
+        Burger.addEventListener("click", () => {
+            Navbar.classList.toggle("active");
+        })
 
 
 
